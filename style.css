@@ -103,28 +103,6 @@ h3 {
   top: 3px;
 }
 
-/* Media Query: iPhone (Vertical) */
-@media screen and (max-width: 376px) {
-
-
-  .img-container {
-    left: 29px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 15px;
-  }
-
-  .player-controls {
-    top: -10px;
-    left: 100px;
-  }
-}
-
 @media screen and (max-width: 375px) {
   .player-container{
     width: 95vw;
@@ -132,12 +110,21 @@ h3 {
   .img-container{
     left: 10px;
     top: 10px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
 }
 h2{
+  margin-top: 10px;
   font-size : 20px;
 }
 h3{
   font-size: 15px;
+}
+.player-controls {
+  top: -10px;
+  left: 50px;
 }
   
   
